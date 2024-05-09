@@ -15,6 +15,7 @@
 		062DD07A2BD0185200A00812 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062DD0782BD0185200A00812 /* Main.storyboard */; };
 		062DD07C2BD0185300A00812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062DD07B2BD0185300A00812 /* Assets.xcassets */; };
 		062DD07F2BD0185300A00812 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062DD07D2BD0185300A00812 /* LaunchScreen.storyboard */; };
+		062DD0862BD8035200A00812 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062DD0852BD8035200A00812 /* StartScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		062DD0792BD0185200A00812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		062DD07B2BD0185300A00812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		062DD07E2BD0185300A00812 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		062DD0852BD8035200A00812 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				062DD0702BD0185200A00812 /* GameScene.sks */,
 				062DD0722BD0185200A00812 /* Actions.sks */,
 				062DD0742BD0185200A00812 /* GameScene.swift */,
+				062DD0852BD8035200A00812 /* StartScreen.swift */,
 				062DD0762BD0185200A00812 /* GameViewController.swift */,
 				062DD0782BD0185200A00812 /* Main.storyboard */,
 				062DD07B2BD0185300A00812 /* Assets.xcassets */,
@@ -146,6 +149,7 @@
 			files = (
 				062DD0752BD0185200A00812 /* GameScene.swift in Sources */,
 				062DD0772BD0185200A00812 /* GameViewController.swift in Sources */,
+				062DD0862BD8035200A00812 /* StartScreen.swift in Sources */,
 				062DD06F2BD0185200A00812 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
